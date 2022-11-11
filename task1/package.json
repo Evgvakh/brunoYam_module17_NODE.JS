@@ -1,0 +1,30 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgvakh/brunoYam_module17_NODE.JS.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Evgeny Vakhrushev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evgvakh/brunoYam_module17_NODE.JS/issues"
+  },
+  "homepage": "https://github.com/Evgvakh/brunoYam_module17_NODE.JS#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "moment": "^2.29.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

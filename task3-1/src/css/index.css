@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'Larsseit-light';
+    src: url(/fonts/larsseit/Larsseit-Light.otf);
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Larsseit-light';    
+}
+
+.container {
+    width: 1440px;    
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    margin-top: 50px;
+    height: 605px;
+}
+
+.main-left {
+    width: 65%;
+    background-color: #62D0DF;
+    padding: 151px 203px 70px 190px;
+}
+
+.main-right {
+    width: 30%;
+}
+
+h2, p {
+   color: white;
+}
+
+h2 {
+   font-size: 36px;
+   text-transform: capitalize; 
+}
+
+p {
+    margin-top: 75px;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 200;
+}
+
+p span {
+    font-size: 24px;
+    font-weight: 700;
+}
